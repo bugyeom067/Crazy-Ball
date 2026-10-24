@@ -65,7 +65,7 @@ namespace Crazyball.CourseKit.UI
         {
             if (stageLabel != null) stageLabel.text = $"STAGE {stage} / {totalStages}";
             if (progressLabel != null)
-                progressLabel.text = $"CURRENT STAGE\n{stage} / {totalStages}\n\nCHECKPOINTS LEFT\n{remainingCheckpoints}";
+                progressLabel.text = $"현재 플레이 진행도\n{stage} / {totalStages}\n\n남은 횟수\n{remainingCheckpoints}";
         }
 
         private void RefreshStatus(string message)

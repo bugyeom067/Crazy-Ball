@@ -13,7 +13,7 @@ namespace Crazyball.CourseKit.Core
         {
             PersistentGameData data = new JsonSaveService().Load();
             if (progressText != null)
-                progressText.text = $"UPGRADE CORES  {data.upgradeCore}\nBEST CHECKPOINT  {data.highestCheckpoint} / 5";
+                progressText.text = $"업그레이드 코어  {data.upgradeCore}\n최고 점수  {data.highestCheckpoint} / 5";
         }
 
         public void Play()

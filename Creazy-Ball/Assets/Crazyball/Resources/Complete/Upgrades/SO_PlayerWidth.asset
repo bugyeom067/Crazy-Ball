@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SO_PlayerWidth
   m_EditorClassIdentifier: Assembly-CSharp::Crazyball.CourseKit.Upgrades.UpgradeDefinition
   upgradeId: ingame.player.width
-  displayName: Wide Paddle
-  description: Increase the player's horizontal catch width.
+  displayName: "\uC640\uC774\uB4DC \uD398\uB2EC"
+  description: "\uD50C\uB808\uC774\uC5B4\uC758 \uD398\uB2EC\uC744 \uB113\uD799\uB2C8\uB2E4."
   icon: {fileID: 0}
   category: 0
   effectType: 10
